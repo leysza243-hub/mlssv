@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music | Ledinha</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f1f5f9;
+      color: #0f172a;
+      line-height: 1.7;
+    }
+
+    /* HERO */
+    header {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      max-width: 720px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      font-size: 2.3rem;
+      margin-bottom: 35px;
+      color: #1e293b;
+    }
+
+    /* INTRO TEXT */
+    .music-intro p {
+      max-width: 800px;
+      margin-bottom: 22px;
+      font-size: 1.05rem;
+      color: #334155;
+    }
+
+    /* MUSIC GRID */
+    .music-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 32px;
+    }
+
+    .artist-card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 15px 30px rgba(15, 23, 42, 0.08);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .artist-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+    }
+
+    .artist-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 18px;
+      color: #0f172a;
+    }
+
+    .artist-card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .artist-card li {
+      padding: 7px 0;
+      font-size: 0.95rem;
+      color: #475569;
+    }
+
+    .artist-card li::before {
+      content: "♪ ";
+      color: #1e293b;
+    }
+
+    /* QUOTE */
+    .quote {
+      margin-top: 80px;
+      background: #e5e7eb;
+      padding: 45px;
+      border-left: 6px solid #0f172a;
+      border-radius: 14px;
+      font-size: 1.1rem;
+      color: #1e293b;
+      max-width: 820px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.9rem;
+      margin-top: 90px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Music</h1>
+    <p>
+      Music is where my emotions breathe —  
+      it understands me when words don’t.
+    </p>
+  </header>
+
+  <!-- INTRO -->
+  <section class="music-intro">
+    <p>
+      Music has always been more than just sound to me. It’s how I process my feelings, sit with my thoughts, 
+      and feel understood without having to explain anything. Some days I don’t feel like talking at all, 
+      and music is the only thing that stays—quietly filling the space without asking for anything back.
+    </p>
+
+    <p>
+      I’m drawn to songs that feel soft, emotional, and honest—the kind that don’t scream but stay with you. 
+      Artists like Taylor Swift, Cigarettes After Sex, Bruno Mars, and Sabrina Carpenter speak to different 
+      parts of me: vulnerability, longing, reflection, and quiet strength.
+    </p>
+
+    <p>
+      Sometimes I listen for comfort, sometimes for healing, and sometimes just so I don’t feel alone. 
+      Certain songs hold memories, moods, and whole phases of my life.
+    </p>
+
+    <p>
+      And every now and then, I go back to older songs—music from another era. 
+      If a song feels real, no matter when it was made, it always finds its way into my world.
+    </p>
+  </section>
+
+  <!-- LIST -->
+  <section>
+    <h2>What I Listen To</h2>
+
+    <div class="music-grid">
+
+      <div class="artist-card">
+        <h3>Taylor Swift</h3>
+        <ul>
+          <li>All Too Well</li>
+          <li>august</li>
+          <li>mirrorball</li>
+          <li>this is me trying</li>
+          <li>Daylight</li>
+        </ul>
+      </div>
+
+      <div class="artist-card">
+        <h3>Bruno Mars</h3>
+        <ul>
+          <li>Talking to the Moon</li>
+          <li>When I Was Your Man</li>
+          <li>Versace on the Floor</li>
+          <li>Grenade</li>
+          <li>It Will Rain</li>
+        </ul>
+      </div>
+
+      <div class="artist-card">
+        <h3>Cigarettes After Sex</h3>
+        <ul>
+          <li>Apocalypse</li>
+          <li>Sweet</li>
+          <li>Heavenly</li>
+          <li>K.</li>
+          <li>Sunsetz</li>
+        </ul>
+      </div>
+
+      <div class="artist-card">
+        <h3>Sabrina Carpenter</h3>
+        <ul>
+          <li>Feather</li>
+          <li>Because I Liked a Boy</li>
+          <li>Fast Times</li>
+          <li>emails i can’t send</li>
+          <li>Nonsense</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="quote">
+      “Some songs don’t just play —  
+      they stay, quietly living inside me.”
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Ledinha | Music Page
+  </footer>
+
+</body>
+</html>

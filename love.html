@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Constants | Ledinha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f4f1ed;
+      color: #3a2f25;
+      line-height: 1.7;
+    }
+
+    /* HEADER */
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #bfa28f, #8f7261);
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: 0.95;
+    }
+
+    /* SECTION */
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #6b5040;
+    }
+
+    .intro-text {
+      max-width: 900px;
+      margin-bottom: 40px;
+      font-size: 1rem;
+      color: #3a2f25;
+      line-height: 1.6;
+    }
+
+    /* CARDS */
+    .constants {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 30px;
+    }
+
+    .constant-card {
+      background: #e4d8ce;
+      border-radius: 18px;
+      padding: 40px 0;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .constant-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+    }
+
+    /* QUOTE */
+    .quote {
+      margin-top: 50px;
+      background: #d8c6b7;
+      padding: 35px;
+      border-left: 6px solid #bfa28f;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      color: #4b3628;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #8f7261;
+      color: white;
+      font-size: 0.9rem;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .constants {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>My Constants</h1>
+    <p>Some things in life remain steady — God, Family, Friends, and Love.</p>
+  </header>
+
+  <!-- CONTENT -->
+  <section>
+    <div class="intro-text">
+      <p>
+        In a life that keeps changing, I’ve learned that what matters most are the things that stay. 
+        When everything feels uncertain—plans, emotions, direction—I hold onto the constants in my life. 
+        They don’t make the noise disappear, but they give me something solid to stand on. They remind me 
+        that no matter how confusing the world gets, I am not walking through it alone.
+      </p>
+
+      <p>
+        God is my first constant. Even when my faith feels quiet, even when I struggle or question, His presence 
+        remains steady. I don’t always have the right words or perfect prayers, but I know I’m held by something 
+        bigger than myself. In moments of fear, weakness, or gratitude, I return to Him—not because life is easy, 
+        but because His presence gives me peace that doesn’t depend on circumstances.
+      </p>
+
+      <p>
+        My family is another constant—my foundation. They are the ones who know my roots, my history, and the parts 
+        of me I don’t always explain. Their support doesn’t always come in grand gestures, but in consistency, care, 
+        and being there when it matters. Through them, I learn what unconditional love looks like, even when life feels 
+        heavy or messy.
+      </p>
+
+      <p>
+        My friends are the quiet strength beside me. They see me as I am, not as who I’m supposed to be. With them, 
+        I don’t need to perform or pretend. Their presence reminds me that connection doesn’t have to be loud to be real. 
+        Sometimes it’s just shared silence, understanding looks, or laughter that makes difficult days feel lighter.
+      </p>
+
+      <p>
+        And then there is my boyfriend—a constant that brings comfort, patience, and growth. He supports me not by 
+        fixing everything, but by staying, listening, and choosing me in small, everyday ways. With him, I feel safe 
+        enough to be vulnerable and strong at the same time. Together, we learn, grow, and face life as it comes, 
+        knowing that love doesn’t mean perfection, but commitment.
+      </p>
+
+      <p>
+        These are my constants—the faith that grounds me, the people who hold me, and the love that keeps me steady. 
+        They are what I return to when the world feels overwhelming. They remind me who I am, where I belong, and why I keep going.
+      </p>
+    </div>
+
+    <div class="constants">
+      <div class="constant-card">God</div>
+      <div class="constant-card">Family</div>
+      <div class="constant-card">Friends</div>
+      <div class="constant-card">Boyfriend</div>
+    </div>
+
+    <div class="quote">
+      “The things I hold closest — faith, love, and connection — are what keep me grounded every day.”
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Ledinha | My Constants
+  </footer>
+
+</body>
+</html>
